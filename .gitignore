@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# API keys
+google_map_crawler/Google_API.txt
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.idea/
+.vscode/
