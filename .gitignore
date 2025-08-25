@@ -8,7 +8,7 @@ __pycache__/
 venv/
 
 # API keys
-google_map_crawler/Google_API.txt
+.env
 
 # Jupyter / IDE
 .ipynb_checkpoints/
