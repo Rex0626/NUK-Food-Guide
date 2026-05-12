@@ -20,10 +20,7 @@
 
 ## 使用方式
 1. 建立虛擬環境並安裝相依性：
-```bash
+『`bash
 python -m venv venv
-
 source venv/bin/activate # Windows: venv\Scripts\activate
-
 pip install -r requirement.txt
-```
