@@ -1,6 +1,6 @@
 # 高大 RAG 美食推薦系統 (NUK RAG Food Guide) 📍
 
-本系統旨在為國立高雄大學師生提供週邊餐飲推薦。專案完整整合了 **Selenium 自動化 Google Maps 爬蟲技術**與**雙層大語言模型（LLM）RAG 架構**。前端採用現代化的類 Gemini 極簡無邊框設計，後端結合 FastAPI 與最新的 Google GenAI SDK，提供具備多輪對話記憶能力與結構化導航卡片的高階美食搜尋體驗。
+本系統旨在為國立高雄大學師生提供週邊餐飲推薦。專案完整整合了 **Selenium 自動化 Google Maps 爬蟲技術**與**RAG + LLM 架構**。前端採用現代化的類 Gemini 極簡無邊框設計，後端結合 FastAPI 與最新的 Google GenAI SDK，提供具備多輪對話記憶能力與結構化導航卡片的高階美食搜尋體驗。
 
 ---
 
