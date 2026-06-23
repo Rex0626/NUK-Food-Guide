@@ -22,7 +22,7 @@ This project combines **Google Maps web crawling**, **Retrieval-Augmented Genera
 
 ### 🧠 Retrieval-Augmented Generation (RAG)
 
-* Uses Google Embedding models to generate semantic vectors.
+* Uses SentenceTransformers models to generate semantic vectors.
 * Builds a local FAISS vector database for efficient similarity search.
 * Retrieves the most relevant restaurant reviews before generating responses.
 
@@ -52,14 +52,14 @@ This project combines **Google Maps web crawling**, **Retrieval-Augmented Genera
                  Google Maps
                       │
                       ▼
-          Selenium Web Crawler
+          Google Maps Place API Crawler
                       │
              Restaurant Dataset
               (JSON / CSV)
                       │
                       ▼
          Embedding Generation
-          (Google Embedding)
+          (SentenceTransformers)
                       │
                       ▼
               FAISS Vector DB
